@@ -140,7 +140,9 @@ public class ReportServiceImpl implements ReportService {
 		
 		String subject="Test mail subject";
 		String body="<h1>Test mail Body</h1>";
-		String to="nishant8064@gmail.com";
+		
+		//enter email address
+		String to="<enter your email address here>";
 		
 		
 		emailUtils.sandMail(subject, body, to,file);
