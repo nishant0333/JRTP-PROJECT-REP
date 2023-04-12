@@ -1,0 +1,9 @@
+#dataBase Propetrties 
+server.port=9091
+
+spring.datasource.url=jdbc:mysql://localhost:3306/JRTP
+spring.datasource.username=root
+spring.datasource.password=nishant
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true

@@ -1,0 +1,13 @@
+package com.example.request;
+
+import java.time.LocalDate;
+
+public class SearchRequest {
+
+	
+	private String planName;
+	private String PlanStatus;
+	private String gender;
+	private LocalDate planStartDate;
+	private LocalDate planEndDate;
+}
